@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+    <header class="encabezado"> <h1> Encriptador y Desencriptador </h1></header>
+    <main class="Principal">
+        <section class="Seccion-Texto">
+            <textarea id="textoEyDcrip" class="textoescrito" name="textarea" rows="20" cols="70" placeholder="Texto a Encriptador o Desencriptador"></textarea>
+            
+            <div class="inform" id="respuesta">
+                <h4 class="h4relleno"> ! Solo letras minúsculas y sin acentos.</h4>
+            </div>
+            
+            <div class="Div-botones-Seccion-Texto">
+                <button class="Botones" onclick="botonEmcriptar()">Emcriptar</button>
+                <button class="Botones" onclick="botonDesemcriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="Seccion-Emcriptado">
+            <textarea id="textomensaje" class="textosmensaje" name="textarea" rows="20" cols="70"></textarea>
+            <div class="Div-botones-Seccion-Emcriptado">
+                <button onclick="botoncopiar()" class="Botones">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="pie-de-pagina"><h5>Realiado por @ALPHI 2024. </h5></footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

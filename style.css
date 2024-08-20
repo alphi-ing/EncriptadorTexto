@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    background: #FEF5FC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+
+.encabezado{
+    display: flex; /*Los elementos los deja en forma Horizontal*/
+    justify-content: center; /*Centra de forma Contenido si esta Horizontal.*/
+    /*align-items: center; Centra de forma Contenido si esta Vertical.*/
+}
+
+.Principal{
+    display: flex; /*Los elementos los deja en forma Horizontal*/
+    flex-wrap: wrap; /*Los elementos al hacer pequña la pantalla los deja en forma de columna*/
+    margin: 0 auto; /* El margen comienza en 0 y va aumentando de acuerdo a la pantalla*/
+    justify-content: center; /*Centra los Elementos del principal a la mitado */
+    gap: 30px; /*Separa los elementos en px horizontal*/
+}
+
+.Seccion-Texto{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(182, 182, 225);
+    display: flex; /*Los elementos los deja en forma Horizontal*/   
+    flex-direction: column; /*Los elementos los deja en forma vertical*/  
+    align-content: center;
+    padding-top: 5%; /*Margen Superior*/
+    flex-wrap: wrap; /*Los elementos al hacer pequña la pantalla los deja en forma de columna*/   
+    gap: 30px; /*Separa los elementos en px horizontal*/
+}
+
+.Seccion-Emcriptado{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(202, 249, 154);
+    display: flex; /*Los elementos los deja en forma Horizontal*/
+    flex-direction: column; /*Los elementos los deja en forma vertical*/
+    align-items: center;   
+    padding-top: 5%; /*Margen Superior*/
+    gap: 30px; /*Separa los elementos en px horizontal*/
+}
+
+.Div-botones-Seccion-Texto{
+    background-color: rgb(182, 182, 225);
+    display: flex; /*Los elementos los deja en forma Horizontal*/
+    flex-wrap: wrap; /*Los elementos al hacer pequña la pantalla los deja en forma de columna*/
+    margin: 0 auto; /* El margen comienza en 0 y va aumentando de acuerdo a la pantalla*/
+    justify-content: center; /*Centra los Elementos del principal a la mitado */
+    gap: 30px; /*Separa los elementos en px horizontal*/
+}
+
+.Div-botones-Seccion-Emcriptado{
+    background-color: rgb(202, 249, 154);
+}
+
+.textoescrito{
+    border: none;
+    color:#0A3871
+    margin-top 90px
+    text-transform lowercase;
+}
+::placeholder{color:#0A3871}
+    .textoescrito{
+        outline: none;
+    }
+.textosmensaje{
+    background-image: url("/imagenes/encriptar.png");
+    background-repeat: no-repeat; /*No repite la Imagen*/
+    background-position-x: center; /*Centra en el eje x*/
+    background-position-y: center; /*Centra en el eje y*/
+    border:none;
+    border-radius: 10px;
+}
+
+.inform{      
+    background-color: rgb(182, 182, 225);
+    display:flex;
+    font-size: 10px;
+}
+
+.h4relleno{
+    background-color: rgb(182, 182, 225);
+   
+}
+
+.Botones{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:rgb(33, 14, 202);
+    cursor: pointer;
+    font-weight: 805; /*Negrilla de la letra de los botones*/
+    height: 30px; /*Alto de los bonones*/
+    width: 160px; /*Ancho de los botones*/
+}
+
+.Botones:hover{
+    color: black; 
+    background-color: blue;
+}
+
+.pie-de-pagina{
+    display: flex;
+    justify-content: center;
+    color: #0A3871;
+}
+
+
+}
