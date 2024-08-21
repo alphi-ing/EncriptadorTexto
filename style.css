@@ -4,7 +4,7 @@
     background: #FEF5FC;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-
+}
 
 .encabezado{
     display: flex; /*Los elementos los deja en forma Horizontal*/
@@ -67,7 +67,7 @@
         outline: none;
     }
 .textosmensaje{
-    background-image: url("/imagenes/encriptar.png");
+    background-image: url("./imagenes/encriptar.png");
     background-repeat: no-repeat; /*No repite la Imagen*/
     background-position-x: center; /*Centra en el eje x*/
     background-position-y: center; /*Centra en el eje y*/
@@ -108,4 +108,3 @@
 }
 
 
-}
